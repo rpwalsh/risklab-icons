@@ -35,3 +35,14 @@ test('sprite exposes every icon as a namespaced symbol', async () => {
   assert.equal(symbols.length, 360);
   assert.match(sprite, /id="risklab-database-check"/);
 });
+
+test('runtime renders escaped, accessible SVG strings and searchable metadata', async () => {
+  const runtime = await import('../dist/index.js');
+  const labeled = runtime.icon('shield-check', { size: 20, label: 'Verified & safe' });
+  assert.match(labeled, /width="20"/);
+  assert.match(labeled, /aria-label="Verified &amp; safe"/);
+  assert.doesNotMatch(labeled, /aria-hidden/);
+  const decorative = runtime.icon('shield');
+  assert.match(decorative, /aria-hidden="true"/);
+  assert.deepEqual(runtime.searchIcons('database'), ['database', 'database-circle', 'database-square', 'database-add', 'database-check']);
+});

@@ -21,3 +21,23 @@ export function searchIcons(query: string): IconName[] {
   if (!normalized) return [...iconNames];
   return iconNames.filter((name) => `${name} ${iconMetadata[name].category} ${iconMetadata[name].keywords.join(' ')}`.includes(normalized));
 }
+
+export function mountIcon(target: Element, name: IconName, options: IconOptions = {}): SVGSVGElement {
+  target.innerHTML = icon(name, options);
+  const svg = target.firstElementChild;
+  if (!(svg instanceof SVGSVGElement)) throw new TypeError('RiskLab icon mount did not produce an SVG element.');
+  return svg;
+}
+
+export function hydrateIcons(root: ParentNode = document): SVGSVGElement[] {
+  return [...root.querySelectorAll<HTMLElement>('[data-risklab-icon]')].flatMap((target) => {
+    const name = target.dataset.risklabIcon as IconName;
+    if (!iconNames.includes(name)) return [];
+    return [mountIcon(target, name, {
+      size: target.dataset.iconSize ?? 24,
+      color: target.dataset.iconColor ?? 'currentColor',
+      strokeWidth: Number(target.dataset.iconStroke ?? 1.75),
+      label: target.getAttribute('aria-label') ?? undefined,
+    })];
+  });
+}

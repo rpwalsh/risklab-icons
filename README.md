@@ -15,3 +15,16 @@ console.log(searchIcons('navigation'));
 ```
 
 The package includes individual SVG files, a combined symbol sprite, typed string rendering, metadata search, and a custom element. The artwork is generated from RiskLab's own geometric grammar; it contains no logos, brand marks, or traced third-party assets.
+
+For zero-dependency progressive enhancement:
+
+```html
+<span data-risklab-icon="shield-check" data-icon-size="20" aria-label="Verified"></span>
+```
+
+```ts
+import { hydrateIcons } from '@risklab/icons';
+hydrateIcons();
+```
+
+The searchable catalog in `catalog/` previews all 360 icons and supports category filtering, SVG inspection, and copy-ready names.
