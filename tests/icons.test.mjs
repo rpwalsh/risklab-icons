@@ -6,10 +6,10 @@ const metadata = JSON.parse(await readFile(new URL('../icons.json', import.meta.
 
 test('ships a broad, uniquely named icon catalog', async () => {
   const files = (await readdir(new URL('../icons/', import.meta.url))).filter((file) => file.endsWith('.svg'));
-  assert.equal(files.length, 360);
-  assert.equal(metadata.length, 360);
-  assert.equal(new Set(metadata.map((item) => item.name)).size, 360);
-  assert.ok(new Set(metadata.map((item) => item.category)).size >= 12);
+  assert.equal(files.length, metadata.length);
+  assert.ok(metadata.length >= 500);
+  assert.equal(new Set(metadata.map((item) => item.name)).size, metadata.length);
+  assert.ok(new Set(metadata.map((item) => item.category)).size >= 15);
 });
 
 test('every SVG follows the RiskLab geometry and accessibility contract', async () => {
@@ -19,7 +19,8 @@ test('every SVG follows the RiskLab geometry and accessibility contract', async 
     assert.match(source, /viewBox="0 0 24 24"/);
     assert.match(source, /stroke="currentColor"/);
     assert.match(source, /stroke-linecap="round"/);
-    assert.match(source, new RegExp(`aria-label="${name}"`));
+    assert.match(source, /aria-hidden="true"/);
+    assert.match(source, /focusable="false"/);
     assert.doesNotMatch(source, /<script|on\w+=|javascript:/i);
   }
 });
@@ -32,7 +33,7 @@ test('catalog contains no brand or product marks', () => {
 test('sprite exposes every icon as a namespaced symbol', async () => {
   const sprite = await readFile(new URL('../sprite/risklab-icons.svg', import.meta.url), 'utf8');
   const symbols = sprite.match(/<symbol /g) ?? [];
-  assert.equal(symbols.length, 360);
+  assert.equal(symbols.length, metadata.length);
   assert.match(sprite, /id="risklab-database-check"/);
 });
 
@@ -45,4 +46,7 @@ test('runtime renders escaped, accessible SVG strings and searchable metadata', 
   const decorative = runtime.icon('shield');
   assert.match(decorative, /aria-hidden="true"/);
   assert.deepEqual(runtime.searchIcons('database'), ['database', 'database-circle', 'database-square', 'database-add', 'database-check']);
+  assert.throws(() => runtime.icon('shield', { strokeWidth: '2\" onload=\"alert(1)' }), /finite number/);
+  assert.throws(() => runtime.icon('shield', { strokeWidth: Number.NaN }), /finite number/);
+  assert.throws(() => runtime.icon('shield', { size: '\" onload=\"alert(1)' }), /safe CSS length/);
 });

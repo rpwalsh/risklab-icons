@@ -1,6 +1,6 @@
 # RiskLab Icons
 
-An original, framework-neutral SVG icon system for professional interfaces. Every icon uses the same 24×24 geometry, round stroke grammar, accessible rendering contract, and current-color theming.
+An original, framework-neutral SVG icon system for professional interfaces. Every icon uses the same 24-by-24 geometry, round stroke grammar, accessible rendering contract, and current-color theming.
 
 ```ts
 import { icon, searchIcons } from '@risklab/icons';
@@ -27,4 +27,4 @@ import { hydrateIcons } from '@risklab/icons';
 hydrateIcons();
 ```
 
-The searchable catalog in `catalog/` previews all 360 icons and supports category filtering, SVG inspection, and copy-ready names.
+The searchable catalog in `catalog/` previews more than 500 generated assets built from over 100 independently drawn base glyphs. It supports category filtering, SVG inspection, and copy-ready names.

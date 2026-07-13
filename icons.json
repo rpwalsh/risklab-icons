@@ -3285,5 +3285,1523 @@
       "verified",
       "complete"
     ]
+  },
+  {
+    "name": "aircraft",
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation"
+    ]
+  },
+  {
+    "name": "aircraft-circle",
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "round"
+    ]
+  },
+  {
+    "name": "aircraft-square",
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "boxed"
+    ]
+  },
+  {
+    "name": "aircraft-add",
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "aircraft-check",
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "anchor",
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port"
+    ]
+  },
+  {
+    "name": "anchor-circle",
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "round"
+    ]
+  },
+  {
+    "name": "anchor-square",
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "boxed"
+    ]
+  },
+  {
+    "name": "anchor-add",
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "anchor-check",
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "antenna",
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter"
+    ]
+  },
+  {
+    "name": "antenna-circle",
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "round"
+    ]
+  },
+  {
+    "name": "antenna-square",
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "boxed"
+    ]
+  },
+  {
+    "name": "antenna-add",
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "antenna-check",
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "battery",
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy"
+    ]
+  },
+  {
+    "name": "battery-circle",
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "round"
+    ]
+  },
+  {
+    "name": "battery-square",
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "boxed"
+    ]
+  },
+  {
+    "name": "battery-add",
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "battery-check",
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "beacon",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator"
+    ]
+  },
+  {
+    "name": "beacon-circle",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "round"
+    ]
+  },
+  {
+    "name": "beacon-square",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "boxed"
+    ]
+  },
+  {
+    "name": "beacon-add",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "beacon-check",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "bookmark",
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite"
+    ]
+  },
+  {
+    "name": "bookmark-circle",
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "round"
+    ]
+  },
+  {
+    "name": "bookmark-square",
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "boxed"
+    ]
+  },
+  {
+    "name": "bookmark-add",
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "bookmark-check",
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "briefcase",
+    "category": "files",
+    "keywords": [
+      "work",
+      "case"
+    ]
+  },
+  {
+    "name": "briefcase-circle",
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "round"
+    ]
+  },
+  {
+    "name": "briefcase-square",
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "boxed"
+    ]
+  },
+  {
+    "name": "briefcase-add",
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "briefcase-check",
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "building",
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility"
+    ]
+  },
+  {
+    "name": "building-circle",
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "round"
+    ]
+  },
+  {
+    "name": "building-square",
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "boxed"
+    ]
+  },
+  {
+    "name": "building-add",
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "building-check",
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "calculator",
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute"
+    ]
+  },
+  {
+    "name": "calculator-circle",
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "round"
+    ]
+  },
+  {
+    "name": "calculator-square",
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "boxed"
+    ]
+  },
+  {
+    "name": "calculator-add",
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "calculator-check",
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "clipboard",
+    "category": "files",
+    "keywords": [
+      "report",
+      "task"
+    ]
+  },
+  {
+    "name": "clipboard-circle",
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "round"
+    ]
+  },
+  {
+    "name": "clipboard-square",
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "boxed"
+    ]
+  },
+  {
+    "name": "clipboard-add",
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "clipboard-check",
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "code",
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source"
+    ]
+  },
+  {
+    "name": "code-circle",
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "round"
+    ]
+  },
+  {
+    "name": "code-square",
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "boxed"
+    ]
+  },
+  {
+    "name": "code-add",
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "code-check",
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "cube",
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume"
+    ]
+  },
+  {
+    "name": "cube-circle",
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "round"
+    ]
+  },
+  {
+    "name": "cube-square",
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "boxed"
+    ]
+  },
+  {
+    "name": "cube-add",
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "cube-check",
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "dashboard",
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview"
+    ]
+  },
+  {
+    "name": "dashboard-circle",
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "round"
+    ]
+  },
+  {
+    "name": "dashboard-square",
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "boxed"
+    ]
+  },
+  {
+    "name": "dashboard-add",
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "dashboard-check",
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "external-link",
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch"
+    ]
+  },
+  {
+    "name": "external-link-circle",
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "round"
+    ]
+  },
+  {
+    "name": "external-link-square",
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "boxed"
+    ]
+  },
+  {
+    "name": "external-link-add",
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "external-link-check",
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "fingerprint",
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric"
+    ]
+  },
+  {
+    "name": "fingerprint-circle",
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "round"
+    ]
+  },
+  {
+    "name": "fingerprint-square",
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "boxed"
+    ]
+  },
+  {
+    "name": "fingerprint-add",
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "fingerprint-check",
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "flask",
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment"
+    ]
+  },
+  {
+    "name": "flask-circle",
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "round"
+    ]
+  },
+  {
+    "name": "flask-square",
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "boxed"
+    ]
+  },
+  {
+    "name": "flask-add",
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "flask-check",
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "help",
+    "category": "status",
+    "keywords": [
+      "question",
+      "support"
+    ]
+  },
+  {
+    "name": "help-circle",
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "round"
+    ]
+  },
+  {
+    "name": "help-square",
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "boxed"
+    ]
+  },
+  {
+    "name": "help-add",
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "help-check",
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "info",
+    "category": "status",
+    "keywords": [
+      "information",
+      "details"
+    ]
+  },
+  {
+    "name": "info-circle",
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "round"
+    ]
+  },
+  {
+    "name": "info-square",
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "boxed"
+    ]
+  },
+  {
+    "name": "info-add",
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "info-check",
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type"
+    ]
+  },
+  {
+    "name": "keyboard-circle",
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "round"
+    ]
+  },
+  {
+    "name": "keyboard-square",
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "boxed"
+    ]
+  },
+  {
+    "name": "keyboard-add",
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "keyboard-check",
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "laptop",
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable"
+    ]
+  },
+  {
+    "name": "laptop-circle",
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "round"
+    ]
+  },
+  {
+    "name": "laptop-square",
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "boxed"
+    ]
+  },
+  {
+    "name": "laptop-add",
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "laptop-check",
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "lightbulb",
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight"
+    ]
+  },
+  {
+    "name": "lightbulb-circle",
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "round"
+    ]
+  },
+  {
+    "name": "lightbulb-square",
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "boxed"
+    ]
+  },
+  {
+    "name": "lightbulb-add",
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "lightbulb-check",
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "map",
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location"
+    ]
+  },
+  {
+    "name": "map-circle",
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "round"
+    ]
+  },
+  {
+    "name": "map-square",
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "boxed"
+    ]
+  },
+  {
+    "name": "map-add",
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "map-check",
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "microphone",
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio"
+    ]
+  },
+  {
+    "name": "microphone-circle",
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "round"
+    ]
+  },
+  {
+    "name": "microphone-square",
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "boxed"
+    ]
+  },
+  {
+    "name": "microphone-add",
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "microphone-check",
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "package",
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery"
+    ]
+  },
+  {
+    "name": "package-circle",
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "round"
+    ]
+  },
+  {
+    "name": "package-square",
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "boxed"
+    ]
+  },
+  {
+    "name": "package-add",
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "package-check",
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "printer",
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document"
+    ]
+  },
+  {
+    "name": "printer-circle",
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "round"
+    ]
+  },
+  {
+    "name": "printer-square",
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "boxed"
+    ]
+  },
+  {
+    "name": "printer-add",
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "printer-check",
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "rocket",
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space"
+    ]
+  },
+  {
+    "name": "rocket-circle",
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "round"
+    ]
+  },
+  {
+    "name": "rocket-square",
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "boxed"
+    ]
+  },
+  {
+    "name": "rocket-add",
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "rocket-check",
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "save",
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist"
+    ]
+  },
+  {
+    "name": "save-circle",
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "round"
+    ]
+  },
+  {
+    "name": "save-square",
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "boxed"
+    ]
+  },
+  {
+    "name": "save-add",
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "save-check",
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "sliders",
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust"
+    ]
+  },
+  {
+    "name": "sliders-circle",
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "round"
+    ]
+  },
+  {
+    "name": "sliders-square",
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "boxed"
+    ]
+  },
+  {
+    "name": "sliders-add",
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "sliders-check",
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "tag",
+    "category": "files",
+    "keywords": [
+      "label",
+      "category"
+    ]
+  },
+  {
+    "name": "tag-circle",
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "round"
+    ]
+  },
+  {
+    "name": "tag-square",
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "boxed"
+    ]
+  },
+  {
+    "name": "tag-add",
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "tag-check",
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "terminal",
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console"
+    ]
+  },
+  {
+    "name": "terminal-circle",
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "round"
+    ]
+  },
+  {
+    "name": "terminal-square",
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "boxed"
+    ]
+  },
+  {
+    "name": "terminal-add",
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "terminal-check",
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "truck",
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics"
+    ]
+  },
+  {
+    "name": "truck-circle",
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "round"
+    ]
+  },
+  {
+    "name": "truck-square",
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "boxed"
+    ]
+  },
+  {
+    "name": "truck-add",
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "truck-check",
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "warning",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution"
+    ]
+  },
+  {
+    "name": "warning-circle",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "round"
+    ]
+  },
+  {
+    "name": "warning-square",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "boxed"
+    ]
+  },
+  {
+    "name": "warning-add",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "warning-check",
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "verified",
+      "complete"
+    ]
+  },
+  {
+    "name": "wrench",
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair"
+    ]
+  },
+  {
+    "name": "wrench-circle",
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "round"
+    ]
+  },
+  {
+    "name": "wrench-square",
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "boxed"
+    ]
+  },
+  {
+    "name": "wrench-add",
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "add",
+      "create"
+    ]
+  },
+  {
+    "name": "wrench-check",
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "verified",
+      "complete"
+    ]
   }
 ]

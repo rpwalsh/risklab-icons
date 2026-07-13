@@ -1,6 +1,6 @@
 {
   "name": "@risklab/icons",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Original, accessible, framework-neutral SVG icons for data-rich interfaces.",
   "type": "module",
   "main": "dist/index.js",
@@ -14,15 +14,23 @@
   "files": ["dist", "icons", "sprite", "README.md", "LICENSE"],
   "scripts": {
     "generate": "node scripts/generate.mjs",
+    "lint": "node scripts/check-source.mjs",
     "typecheck": "tsc --noEmit",
     "build": "npm run generate && tsc -p tsconfig.build.json",
     "test": "node --test tests/*.test.mjs",
-    "validate": "npm run build && npm run test && npm pack --dry-run"
+    "test:browser": "node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm run test",
+    "prepack": "npm run generate && npm run check && tsc -p tsconfig.build.json",
+    "test:consumer": "node scripts/test-consumer.mjs",
+    "pack:check": "npm run test:consumer",
+    "release:check": "npm run lint && npm run typecheck && npm test && npm run build && npm run pack:check",
+    "validate": "npm run release:check"
   },
   "keywords": ["icons", "svg", "web-components", "typescript", "accessible", "risklab"],
   "license": "Apache-2.0",
-  "author": "RiskLab Contributors",
+  "author": "Ryan Walsh",
   "repository": { "type": "git", "url": "https://github.com/rpwalsh/risklab-icons.git" },
   "engines": { "node": ">=20" },
+  "publishConfig": { "access": "public" },
   "devDependencies": { "typescript": "^5.7.0" }
 }

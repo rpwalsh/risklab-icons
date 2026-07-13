@@ -1,6 +1,10 @@
 import { icon, iconNames, type IconName } from './index.js';
 
-export class RiskLabIconElement extends HTMLElement {
+const HTMLElementBase: typeof HTMLElement = typeof HTMLElement === 'undefined'
+  ? class {} as typeof HTMLElement
+  : HTMLElement;
+
+export class RiskLabIconElement extends HTMLElementBase {
   static observedAttributes = ['name', 'size', 'color', 'stroke-width', 'label'];
   connectedCallback(): void { this.render(); }
   attributeChangedCallback(): void { if (this.isConnected) this.render(); }

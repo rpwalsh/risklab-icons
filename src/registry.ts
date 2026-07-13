@@ -359,7 +359,172 @@ export const iconBodies = {
   "radar-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 12l6-6M12 3v18M3 12h18\"/><circle cx=\"16\" cy=\"8\" r=\"1\"/></g>",
   "radar-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 12l6-6M12 3v18M3 12h18\"/><circle cx=\"16\" cy=\"8\" r=\"1\"/></g>",
   "radar-add": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 12l6-6M12 3v18M3 12h18\"/><circle cx=\"16\" cy=\"8\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
-  "radar-check": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 12l6-6M12 3v18M3 12h18\"/><circle cx=\"16\" cy=\"8\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>"
+  "radar-check": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"5\"/><path d=\"M12 12l6-6M12 3v18M3 12h18\"/><circle cx=\"16\" cy=\"8\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "aircraft": "<path d=\"M3 13l7-2V5l2-2 2 2v6l7 2v2l-7-1v4l2 2v1l-4-1-4 1v-1l2-2v-4l-7 1z\"/>",
+  "aircraft-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 13l7-2V5l2-2 2 2v6l7 2v2l-7-1v4l2 2v1l-4-1-4 1v-1l2-2v-4l-7 1z\"/></g>",
+  "aircraft-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 13l7-2V5l2-2 2 2v6l7 2v2l-7-1v4l2 2v1l-4-1-4 1v-1l2-2v-4l-7 1z\"/></g>",
+  "aircraft-add": "<path d=\"M3 13l7-2V5l2-2 2 2v6l7 2v2l-7-1v4l2 2v1l-4-1-4 1v-1l2-2v-4l-7 1z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "aircraft-check": "<path d=\"M3 13l7-2V5l2-2 2 2v6l7 2v2l-7-1v4l2 2v1l-4-1-4 1v-1l2-2v-4l-7 1z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "anchor": "<path d=\"M12 3v14M8 7h8M5 13a7 7 0 0014 0M5 13H2m17 0h3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/>",
+  "anchor-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 3v14M8 7h8M5 13a7 7 0 0014 0M5 13H2m17 0h3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/></g>",
+  "anchor-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 3v14M8 7h8M5 13a7 7 0 0014 0M5 13H2m17 0h3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/></g>",
+  "anchor-add": "<path d=\"M12 3v14M8 7h8M5 13a7 7 0 0014 0M5 13H2m17 0h3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "anchor-check": "<path d=\"M12 3v14M8 7h8M5 13a7 7 0 0014 0M5 13H2m17 0h3\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "antenna": "<path d=\"M12 14v7m-4 0h8M12 14l-4-4m4 4 4-4M6 8a8 8 0 0112 0M3 5a12 12 0 0118 0\"/>",
+  "antenna-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 14v7m-4 0h8M12 14l-4-4m4 4 4-4M6 8a8 8 0 0112 0M3 5a12 12 0 0118 0\"/></g>",
+  "antenna-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 14v7m-4 0h8M12 14l-4-4m4 4 4-4M6 8a8 8 0 0112 0M3 5a12 12 0 0118 0\"/></g>",
+  "antenna-add": "<path d=\"M12 14v7m-4 0h8M12 14l-4-4m4 4 4-4M6 8a8 8 0 0112 0M3 5a12 12 0 0118 0\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "antenna-check": "<path d=\"M12 14v7m-4 0h8M12 14l-4-4m4 4 4-4M6 8a8 8 0 0112 0M3 5a12 12 0 0118 0\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "battery": "<rect x=\"3\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><rect x=\"20\" y=\"10\" width=\"2\" height=\"4\" rx=\"0.5\"/><path d=\"M7 12h4m-2-2v4m5-2h3\"/>",
+  "battery-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><rect x=\"20\" y=\"10\" width=\"2\" height=\"4\" rx=\"0.5\"/><path d=\"M7 12h4m-2-2v4m5-2h3\"/></g>",
+  "battery-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><rect x=\"20\" y=\"10\" width=\"2\" height=\"4\" rx=\"0.5\"/><path d=\"M7 12h4m-2-2v4m5-2h3\"/></g>",
+  "battery-add": "<rect x=\"3\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><rect x=\"20\" y=\"10\" width=\"2\" height=\"4\" rx=\"0.5\"/><path d=\"M7 12h4m-2-2v4m5-2h3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "battery-check": "<rect x=\"3\" y=\"7\" width=\"17\" height=\"10\" rx=\"2\"/><rect x=\"20\" y=\"10\" width=\"2\" height=\"4\" rx=\"0.5\"/><path d=\"M7 12h4m-2-2v4m5-2h3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "beacon": "<path d=\"M8 20h8l-1-8a3 3 0 00-6 0zM4 10l-2-1m18 1l2-1M6 6L4 4m12 2l2-2M12 4V1\"/>",
+  "beacon-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M8 20h8l-1-8a3 3 0 00-6 0zM4 10l-2-1m18 1l2-1M6 6L4 4m12 2l2-2M12 4V1\"/></g>",
+  "beacon-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M8 20h8l-1-8a3 3 0 00-6 0zM4 10l-2-1m18 1l2-1M6 6L4 4m12 2l2-2M12 4V1\"/></g>",
+  "beacon-add": "<path d=\"M8 20h8l-1-8a3 3 0 00-6 0zM4 10l-2-1m18 1l2-1M6 6L4 4m12 2l2-2M12 4V1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "beacon-check": "<path d=\"M8 20h8l-1-8a3 3 0 00-6 0zM4 10l-2-1m18 1l2-1M6 6L4 4m12 2l2-2M12 4V1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "bookmark": "<path d=\"M6 3h12v18l-6-4-6 4z\"/>",
+  "bookmark-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M6 3h12v18l-6-4-6 4z\"/></g>",
+  "bookmark-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M6 3h12v18l-6-4-6 4z\"/></g>",
+  "bookmark-add": "<path d=\"M6 3h12v18l-6-4-6 4z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "bookmark-check": "<path d=\"M6 3h12v18l-6-4-6 4z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "briefcase": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V4h8v3M3 12h18m-11 0v2h4v-2\"/>",
+  "briefcase-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V4h8v3M3 12h18m-11 0v2h4v-2\"/></g>",
+  "briefcase-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V4h8v3M3 12h18m-11 0v2h4v-2\"/></g>",
+  "briefcase-add": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V4h8v3M3 12h18m-11 0v2h4v-2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "briefcase-check": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V4h8v3M3 12h18m-11 0v2h4v-2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "building": "<path d=\"M4 21V5l8-3 8 3v16M8 7h2m4 0h2M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-3h4v3\"/>",
+  "building-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 21V5l8-3 8 3v16M8 7h2m4 0h2M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-3h4v3\"/></g>",
+  "building-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 21V5l8-3 8 3v16M8 7h2m4 0h2M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-3h4v3\"/></g>",
+  "building-add": "<path d=\"M4 21V5l8-3 8 3v16M8 7h2m4 0h2M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-3h4v3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "building-check": "<path d=\"M4 21V5l8-3 8 3v16M8 7h2m4 0h2M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-3h4v3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "calculator": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M8 13h1m3 0h1m3 0h1M8 17h1m3 0h1m3 0h1\"/>",
+  "calculator-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M8 13h1m3 0h1m3 0h1M8 17h1m3 0h1m3 0h1\"/></g>",
+  "calculator-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M8 13h1m3 0h1m3 0h1M8 17h1m3 0h1m3 0h1\"/></g>",
+  "calculator-add": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M8 13h1m3 0h1m3 0h1M8 17h1m3 0h1m3 0h1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "calculator-check": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"/><rect x=\"8\" y=\"5\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M8 13h1m3 0h1m3 0h1M8 17h1m3 0h1m3 0h1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "clipboard": "<rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><path d=\"M8 11h8M8 15h8M8 19h5\"/>",
+  "clipboard-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><path d=\"M8 11h8M8 15h8M8 19h5\"/></g>",
+  "clipboard-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><path d=\"M8 11h8M8 15h8M8 19h5\"/></g>",
+  "clipboard-add": "<rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><path d=\"M8 11h8M8 15h8M8 19h5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "clipboard-check": "<rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><rect x=\"8\" y=\"2\" width=\"8\" height=\"5\" rx=\"2\"/><path d=\"M8 11h8M8 15h8M8 19h5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "code": "<path d=\"M9 6l-6 6 6 6m6-12l6 6-6 6m-2-14L11 20\"/>",
+  "code-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 6l-6 6 6 6m6-12l6 6-6 6m-2-14L11 20\"/></g>",
+  "code-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 6l-6 6 6 6m6-12l6 6-6 6m-2-14L11 20\"/></g>",
+  "code-add": "<path d=\"M9 6l-6 6 6 6m6-12l6 6-6 6m-2-14L11 20\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "code-check": "<path d=\"M9 6l-6 6 6 6m6-12l6 6-6 6m-2-14L11 20\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "cube": "<path d=\"M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10\"/>",
+  "cube-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10\"/></g>",
+  "cube-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10\"/></g>",
+  "cube-add": "<path d=\"M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "cube-check": "<path d=\"M12 2l9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "dashboard": "<path d=\"M4 4h7v7H4zm9 0h7v4h-7zm0 6h7v10h-7zM4 13h7v7H4z\"/>",
+  "dashboard-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 4h7v7H4zm9 0h7v4h-7zm0 6h7v10h-7zM4 13h7v7H4z\"/></g>",
+  "dashboard-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 4h7v7H4zm9 0h7v4h-7zm0 6h7v10h-7zM4 13h7v7H4z\"/></g>",
+  "dashboard-add": "<path d=\"M4 4h7v7H4zm9 0h7v4h-7zm0 6h7v10h-7zM4 13h7v7H4z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "dashboard-check": "<path d=\"M4 4h7v7H4zm9 0h7v4h-7zm0 6h7v10h-7zM4 13h7v7H4z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "external-link": "<path d=\"M14 4h6v6m0-6l-9 9M18 13v7H4V6h7\"/>",
+  "external-link-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M14 4h6v6m0-6l-9 9M18 13v7H4V6h7\"/></g>",
+  "external-link-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M14 4h6v6m0-6l-9 9M18 13v7H4V6h7\"/></g>",
+  "external-link-add": "<path d=\"M14 4h6v6m0-6l-9 9M18 13v7H4V6h7\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "external-link-check": "<path d=\"M14 4h6v6m0-6l-9 9M18 13v7H4V6h7\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "fingerprint": "<path d=\"M6 10a6 6 0 0112 0v3M4 10a8 8 0 0116 0v5M8 11v3a4 4 0 004 4m0-10a4 4 0 014 4v4a7 7 0 01-2 5M8 18a7 7 0 01-2-5\"/>",
+  "fingerprint-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M6 10a6 6 0 0112 0v3M4 10a8 8 0 0116 0v5M8 11v3a4 4 0 004 4m0-10a4 4 0 014 4v4a7 7 0 01-2 5M8 18a7 7 0 01-2-5\"/></g>",
+  "fingerprint-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M6 10a6 6 0 0112 0v3M4 10a8 8 0 0116 0v5M8 11v3a4 4 0 004 4m0-10a4 4 0 014 4v4a7 7 0 01-2 5M8 18a7 7 0 01-2-5\"/></g>",
+  "fingerprint-add": "<path d=\"M6 10a6 6 0 0112 0v3M4 10a8 8 0 0116 0v5M8 11v3a4 4 0 004 4m0-10a4 4 0 014 4v4a7 7 0 01-2 5M8 18a7 7 0 01-2-5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "fingerprint-check": "<path d=\"M6 10a6 6 0 0112 0v3M4 10a8 8 0 0116 0v5M8 11v3a4 4 0 004 4m0-10a4 4 0 014 4v4a7 7 0 01-2 5M8 18a7 7 0 01-2-5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "flask": "<path d=\"M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7 16h10\"/>",
+  "flask-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7 16h10\"/></g>",
+  "flask-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7 16h10\"/></g>",
+  "flask-add": "<path d=\"M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7 16h10\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "flask-check": "<path d=\"M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7 16h10\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "help": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.7 2.7 0 115 1.5c-.7 1-2.5 1.4-2.5 3M12 17h.01\"/>",
+  "help-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.7 2.7 0 115 1.5c-.7 1-2.5 1.4-2.5 3M12 17h.01\"/></g>",
+  "help-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.7 2.7 0 115 1.5c-.7 1-2.5 1.4-2.5 3M12 17h.01\"/></g>",
+  "help-add": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.7 2.7 0 115 1.5c-.7 1-2.5 1.4-2.5 3M12 17h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "help-check": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M9.5 9a2.7 2.7 0 115 1.5c-.7 1-2.5 1.4-2.5 3M12 17h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "info": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7h.01\"/>",
+  "info-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7h.01\"/></g>",
+  "info-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7h.01\"/></g>",
+  "info-add": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "info-check": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "keyboard": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M5 10h1m3 0h1m3 0h1m3 0h1M5 14h2m2 0h6m2 0h2\"/>",
+  "keyboard-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M5 10h1m3 0h1m3 0h1m3 0h1M5 14h2m2 0h6m2 0h2\"/></g>",
+  "keyboard-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M5 10h1m3 0h1m3 0h1m3 0h1M5 14h2m2 0h6m2 0h2\"/></g>",
+  "keyboard-add": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M5 10h1m3 0h1m3 0h1m3 0h1M5 14h2m2 0h6m2 0h2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "keyboard-check": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"2\"/><path d=\"M5 10h1m3 0h1m3 0h1m3 0h1M5 14h2m2 0h6m2 0h2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "laptop": "<path d=\"M5 4h14v11H5zM3 19h18l-2-4H5z\"/>",
+  "laptop-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M5 4h14v11H5zM3 19h18l-2-4H5z\"/></g>",
+  "laptop-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M5 4h14v11H5zM3 19h18l-2-4H5z\"/></g>",
+  "laptop-add": "<path d=\"M5 4h14v11H5zM3 19h18l-2-4H5z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "laptop-check": "<path d=\"M5 4h14v11H5zM3 19h18l-2-4H5z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "lightbulb": "<path d=\"M8 15a6 6 0 118 0l-1 2H9zM9 20h6M10 17v-5m4 5v-5\"/>",
+  "lightbulb-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M8 15a6 6 0 118 0l-1 2H9zM9 20h6M10 17v-5m4 5v-5\"/></g>",
+  "lightbulb-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M8 15a6 6 0 118 0l-1 2H9zM9 20h6M10 17v-5m4 5v-5\"/></g>",
+  "lightbulb-add": "<path d=\"M8 15a6 6 0 118 0l-1 2H9zM9 20h6M10 17v-5m4 5v-5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "lightbulb-check": "<path d=\"M8 15a6 6 0 118 0l-1 2H9zM9 20h6M10 17v-5m4 5v-5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "map": "<path d=\"M3 5l6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16m6-14v16\"/>",
+  "map-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 5l6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16m6-14v16\"/></g>",
+  "map-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 5l6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16m6-14v16\"/></g>",
+  "map-add": "<path d=\"M3 5l6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16m6-14v16\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "map-check": "<path d=\"M3 5l6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16m6-14v16\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "microphone": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M6 11a6 6 0 0012 0M12 17v4m-4 0h8\"/>",
+  "microphone-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M6 11a6 6 0 0012 0M12 17v4m-4 0h8\"/></g>",
+  "microphone-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M6 11a6 6 0 0012 0M12 17v4m-4 0h8\"/></g>",
+  "microphone-add": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M6 11a6 6 0 0012 0M12 17v4m-4 0h8\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "microphone-check": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M6 11a6 6 0 0012 0M12 17v4m-4 0h8\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "package": "<path d=\"M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10M8 5l8 4\"/>",
+  "package-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10M8 5l8 4\"/></g>",
+  "package-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10M8 5l8 4\"/></g>",
+  "package-add": "<path d=\"M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10M8 5l8 4\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "package-check": "<path d=\"M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10M8 5l8 4\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "printer": "<path d=\"M7 8V3h10v5M6 17H3V9h18v8h-3M7 14h10v7H7zM17 11h.01\"/>",
+  "printer-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M7 8V3h10v5M6 17H3V9h18v8h-3M7 14h10v7H7zM17 11h.01\"/></g>",
+  "printer-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M7 8V3h10v5M6 17H3V9h18v8h-3M7 14h10v7H7zM17 11h.01\"/></g>",
+  "printer-add": "<path d=\"M7 8V3h10v5M6 17H3V9h18v8h-3M7 14h10v7H7zM17 11h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "printer-check": "<path d=\"M7 8V3h10v5M6 17H3V9h18v8h-3M7 14h10v7H7zM17 11h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "rocket": "<path d=\"M9 15l-4 1 3-4m7 3l1 4-4-3M8 12c1-5 4-8 8-9 1 4-1 8-5 11zM7 17l-2 2m4 0l-3 3\"/>",
+  "rocket-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 15l-4 1 3-4m7 3l1 4-4-3M8 12c1-5 4-8 8-9 1 4-1 8-5 11zM7 17l-2 2m4 0l-3 3\"/></g>",
+  "rocket-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M9 15l-4 1 3-4m7 3l1 4-4-3M8 12c1-5 4-8 8-9 1 4-1 8-5 11zM7 17l-2 2m4 0l-3 3\"/></g>",
+  "rocket-add": "<path d=\"M9 15l-4 1 3-4m7 3l1 4-4-3M8 12c1-5 4-8 8-9 1 4-1 8-5 11zM7 17l-2 2m4 0l-3 3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "rocket-check": "<path d=\"M9 15l-4 1 3-4m7 3l1 4-4-3M8 12c1-5 4-8 8-9 1 4-1 8-5 11zM7 17l-2 2m4 0l-3 3\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "save": "<path d=\"M4 3h14l2 2v16H4zM8 3v6h8V3M7 21v-8h10v8\"/>",
+  "save-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 3h14l2 2v16H4zM8 3v6h8V3M7 21v-8h10v8\"/></g>",
+  "save-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 3h14l2 2v16H4zM8 3v6h8V3M7 21v-8h10v8\"/></g>",
+  "save-add": "<path d=\"M4 3h14l2 2v16H4zM8 3v6h8V3M7 21v-8h10v8\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "save-check": "<path d=\"M4 3h14l2 2v16H4zM8 3v6h8V3M7 21v-8h10v8\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "sliders": "<path d=\"M4 6h6m4 0h6M4 12h10m4 0h2M4 18h3m4 0h9\"/><circle cx=\"12\" cy=\"6\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><circle cx=\"9\" cy=\"18\" r=\"2\"/>",
+  "sliders-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 6h6m4 0h6M4 12h10m4 0h2M4 18h3m4 0h9\"/><circle cx=\"12\" cy=\"6\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><circle cx=\"9\" cy=\"18\" r=\"2\"/></g>",
+  "sliders-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M4 6h6m4 0h6M4 12h10m4 0h2M4 18h3m4 0h9\"/><circle cx=\"12\" cy=\"6\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><circle cx=\"9\" cy=\"18\" r=\"2\"/></g>",
+  "sliders-add": "<path d=\"M4 6h6m4 0h6M4 12h10m4 0h2M4 18h3m4 0h9\"/><circle cx=\"12\" cy=\"6\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><circle cx=\"9\" cy=\"18\" r=\"2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "sliders-check": "<path d=\"M4 6h6m4 0h6M4 12h10m4 0h2M4 18h3m4 0h9\"/><circle cx=\"12\" cy=\"6\" r=\"2\"/><circle cx=\"16\" cy=\"12\" r=\"2\"/><circle cx=\"9\" cy=\"18\" r=\"2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "tag": "<path d=\"M3 11V4h7l11 11-6 6z\"/><circle cx=\"7.5\" cy=\"7.5\" r=\"1\"/>",
+  "tag-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 11V4h7l11 11-6 6z\"/><circle cx=\"7.5\" cy=\"7.5\" r=\"1\"/></g>",
+  "tag-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 11V4h7l11 11-6 6z\"/><circle cx=\"7.5\" cy=\"7.5\" r=\"1\"/></g>",
+  "tag-add": "<path d=\"M3 11V4h7l11 11-6 6z\"/><circle cx=\"7.5\" cy=\"7.5\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "tag-check": "<path d=\"M3 11V4h7l11 11-6 6z\"/><circle cx=\"7.5\" cy=\"7.5\" r=\"1\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "terminal": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9l3 3-3 3m5 0h5\"/>",
+  "terminal-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9l3 3-3 3m5 0h5\"/></g>",
+  "terminal-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9l3 3-3 3m5 0h5\"/></g>",
+  "terminal-add": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9l3 3-3 3m5 0h5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "terminal-check": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M7 9l3 3-3 3m5 0h5\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "truck": "<path d=\"M3 6h11v11H3zm11 4h4l3 4v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/>",
+  "truck-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 6h11v11H3zm11 4h4l3 4v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></g>",
+  "truck-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M3 6h11v11H3zm11 4h4l3 4v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></g>",
+  "truck-add": "<path d=\"M3 6h11v11H3zm11 4h4l3 4v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "truck-check": "<path d=\"M3 6h11v11H3zm11 4h4l3 4v3h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "warning": "<path d=\"M12 3l10 18H2zM12 9v5m0 3h.01\"/>",
+  "warning-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 3l10 18H2zM12 9v5m0 3h.01\"/></g>",
+  "warning-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M12 3l10 18H2zM12 9v5m0 3h.01\"/></g>",
+  "warning-add": "<path d=\"M12 3l10 18H2zM12 9v5m0 3h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "warning-check": "<path d=\"M12 3l10 18H2zM12 9v5m0 3h.01\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>",
+  "wrench": "<path d=\"M14 6a4 4 0 005 5l-9 9a2 2 0 01-3-3l9-9a4 4 0 01-5-5l2 3z\"/>",
+  "wrench-circle": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M14 6a4 4 0 005 5l-9 9a2 2 0 01-3-3l9-9a4 4 0 01-5-5l2 3z\"/></g>",
+  "wrench-square": "<rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"4\"/><g transform=\"translate(2.4 2.4) scale(.8)\"><path d=\"M14 6a4 4 0 005 5l-9 9a2 2 0 01-3-3l9-9a4 4 0 01-5-5l2 3z\"/></g>",
+  "wrench-add": "<path d=\"M14 6a4 4 0 005 5l-9 9a2 2 0 01-3-3l9-9a4 4 0 01-5-5l2 3z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M18.5 3.8L18.5 7.2\"/><path d=\"M16.8 5.5L20.2 5.5\"/>",
+  "wrench-check": "<path d=\"M14 6a4 4 0 005 5l-9 9a2 2 0 01-3-3l9-9a4 4 0 01-5-5l2 3z\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"3.5\"/><path d=\"M16.8 5.5l1.2 1.2 2.2-2.4\"/>"
 } as const;
 export const iconMetadata = {
   "plus": {
@@ -3285,6 +3450,1359 @@ export const iconMetadata = {
     "keywords": [
       "sensor",
       "scan",
+      "verified",
+      "complete"
+    ]
+  },
+  "aircraft": {
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation"
+    ]
+  },
+  "aircraft-circle": {
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "round"
+    ]
+  },
+  "aircraft-square": {
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "boxed"
+    ]
+  },
+  "aircraft-add": {
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "add",
+      "create"
+    ]
+  },
+  "aircraft-check": {
+    "category": "transport",
+    "keywords": [
+      "flight",
+      "aviation",
+      "verified",
+      "complete"
+    ]
+  },
+  "anchor": {
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port"
+    ]
+  },
+  "anchor-circle": {
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "round"
+    ]
+  },
+  "anchor-square": {
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "boxed"
+    ]
+  },
+  "anchor-add": {
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "add",
+      "create"
+    ]
+  },
+  "anchor-check": {
+    "category": "transport",
+    "keywords": [
+      "marine",
+      "port",
+      "verified",
+      "complete"
+    ]
+  },
+  "antenna": {
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter"
+    ]
+  },
+  "antenna-circle": {
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "round"
+    ]
+  },
+  "antenna-square": {
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "boxed"
+    ]
+  },
+  "antenna-add": {
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "add",
+      "create"
+    ]
+  },
+  "antenna-check": {
+    "category": "communication",
+    "keywords": [
+      "radio",
+      "transmitter",
+      "verified",
+      "complete"
+    ]
+  },
+  "battery": {
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy"
+    ]
+  },
+  "battery-circle": {
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "round"
+    ]
+  },
+  "battery-square": {
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "boxed"
+    ]
+  },
+  "battery-add": {
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "add",
+      "create"
+    ]
+  },
+  "battery-check": {
+    "category": "devices",
+    "keywords": [
+      "power",
+      "energy",
+      "verified",
+      "complete"
+    ]
+  },
+  "beacon": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator"
+    ]
+  },
+  "beacon-circle": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "round"
+    ]
+  },
+  "beacon-square": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "boxed"
+    ]
+  },
+  "beacon-add": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "add",
+      "create"
+    ]
+  },
+  "beacon-check": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "locator",
+      "verified",
+      "complete"
+    ]
+  },
+  "bookmark": {
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite"
+    ]
+  },
+  "bookmark-circle": {
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "round"
+    ]
+  },
+  "bookmark-square": {
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "boxed"
+    ]
+  },
+  "bookmark-add": {
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "add",
+      "create"
+    ]
+  },
+  "bookmark-check": {
+    "category": "files",
+    "keywords": [
+      "save",
+      "favorite",
+      "verified",
+      "complete"
+    ]
+  },
+  "briefcase": {
+    "category": "files",
+    "keywords": [
+      "work",
+      "case"
+    ]
+  },
+  "briefcase-circle": {
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "round"
+    ]
+  },
+  "briefcase-square": {
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "boxed"
+    ]
+  },
+  "briefcase-add": {
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "add",
+      "create"
+    ]
+  },
+  "briefcase-check": {
+    "category": "files",
+    "keywords": [
+      "work",
+      "case",
+      "verified",
+      "complete"
+    ]
+  },
+  "building": {
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility"
+    ]
+  },
+  "building-circle": {
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "round"
+    ]
+  },
+  "building-square": {
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "boxed"
+    ]
+  },
+  "building-add": {
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "add",
+      "create"
+    ]
+  },
+  "building-check": {
+    "category": "places",
+    "keywords": [
+      "office",
+      "facility",
+      "verified",
+      "complete"
+    ]
+  },
+  "calculator": {
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute"
+    ]
+  },
+  "calculator-circle": {
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "round"
+    ]
+  },
+  "calculator-square": {
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "boxed"
+    ]
+  },
+  "calculator-add": {
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "add",
+      "create"
+    ]
+  },
+  "calculator-check": {
+    "category": "devices",
+    "keywords": [
+      "math",
+      "compute",
+      "verified",
+      "complete"
+    ]
+  },
+  "clipboard": {
+    "category": "files",
+    "keywords": [
+      "report",
+      "task"
+    ]
+  },
+  "clipboard-circle": {
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "round"
+    ]
+  },
+  "clipboard-square": {
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "boxed"
+    ]
+  },
+  "clipboard-add": {
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "add",
+      "create"
+    ]
+  },
+  "clipboard-check": {
+    "category": "files",
+    "keywords": [
+      "report",
+      "task",
+      "verified",
+      "complete"
+    ]
+  },
+  "code": {
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source"
+    ]
+  },
+  "code-circle": {
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "round"
+    ]
+  },
+  "code-square": {
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "boxed"
+    ]
+  },
+  "code-add": {
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "add",
+      "create"
+    ]
+  },
+  "code-check": {
+    "category": "development",
+    "keywords": [
+      "developer",
+      "source",
+      "verified",
+      "complete"
+    ]
+  },
+  "cube": {
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume"
+    ]
+  },
+  "cube-circle": {
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "round"
+    ]
+  },
+  "cube-square": {
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "boxed"
+    ]
+  },
+  "cube-add": {
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "add",
+      "create"
+    ]
+  },
+  "cube-check": {
+    "category": "data",
+    "keywords": [
+      "model",
+      "volume",
+      "verified",
+      "complete"
+    ]
+  },
+  "dashboard": {
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview"
+    ]
+  },
+  "dashboard-circle": {
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "round"
+    ]
+  },
+  "dashboard-square": {
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "boxed"
+    ]
+  },
+  "dashboard-add": {
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "add",
+      "create"
+    ]
+  },
+  "dashboard-check": {
+    "category": "data",
+    "keywords": [
+      "layout",
+      "overview",
+      "verified",
+      "complete"
+    ]
+  },
+  "external-link": {
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch"
+    ]
+  },
+  "external-link-circle": {
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "round"
+    ]
+  },
+  "external-link-square": {
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "boxed"
+    ]
+  },
+  "external-link-add": {
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "add",
+      "create"
+    ]
+  },
+  "external-link-check": {
+    "category": "navigation",
+    "keywords": [
+      "open",
+      "launch",
+      "verified",
+      "complete"
+    ]
+  },
+  "fingerprint": {
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric"
+    ]
+  },
+  "fingerprint-circle": {
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "round"
+    ]
+  },
+  "fingerprint-square": {
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "boxed"
+    ]
+  },
+  "fingerprint-add": {
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "add",
+      "create"
+    ]
+  },
+  "fingerprint-check": {
+    "category": "security",
+    "keywords": [
+      "identity",
+      "biometric",
+      "verified",
+      "complete"
+    ]
+  },
+  "flask": {
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment"
+    ]
+  },
+  "flask-circle": {
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "round"
+    ]
+  },
+  "flask-square": {
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "boxed"
+    ]
+  },
+  "flask-add": {
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "add",
+      "create"
+    ]
+  },
+  "flask-check": {
+    "category": "science",
+    "keywords": [
+      "lab",
+      "experiment",
+      "verified",
+      "complete"
+    ]
+  },
+  "help": {
+    "category": "status",
+    "keywords": [
+      "question",
+      "support"
+    ]
+  },
+  "help-circle": {
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "round"
+    ]
+  },
+  "help-square": {
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "boxed"
+    ]
+  },
+  "help-add": {
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "add",
+      "create"
+    ]
+  },
+  "help-check": {
+    "category": "status",
+    "keywords": [
+      "question",
+      "support",
+      "verified",
+      "complete"
+    ]
+  },
+  "info": {
+    "category": "status",
+    "keywords": [
+      "information",
+      "details"
+    ]
+  },
+  "info-circle": {
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "round"
+    ]
+  },
+  "info-square": {
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "boxed"
+    ]
+  },
+  "info-add": {
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "add",
+      "create"
+    ]
+  },
+  "info-check": {
+    "category": "status",
+    "keywords": [
+      "information",
+      "details",
+      "verified",
+      "complete"
+    ]
+  },
+  "keyboard": {
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type"
+    ]
+  },
+  "keyboard-circle": {
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "round"
+    ]
+  },
+  "keyboard-square": {
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "boxed"
+    ]
+  },
+  "keyboard-add": {
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "add",
+      "create"
+    ]
+  },
+  "keyboard-check": {
+    "category": "devices",
+    "keywords": [
+      "input",
+      "type",
+      "verified",
+      "complete"
+    ]
+  },
+  "laptop": {
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable"
+    ]
+  },
+  "laptop-circle": {
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "round"
+    ]
+  },
+  "laptop-square": {
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "boxed"
+    ]
+  },
+  "laptop-add": {
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "add",
+      "create"
+    ]
+  },
+  "laptop-check": {
+    "category": "devices",
+    "keywords": [
+      "computer",
+      "portable",
+      "verified",
+      "complete"
+    ]
+  },
+  "lightbulb": {
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight"
+    ]
+  },
+  "lightbulb-circle": {
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "round"
+    ]
+  },
+  "lightbulb-square": {
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "boxed"
+    ]
+  },
+  "lightbulb-add": {
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "add",
+      "create"
+    ]
+  },
+  "lightbulb-check": {
+    "category": "status",
+    "keywords": [
+      "idea",
+      "insight",
+      "verified",
+      "complete"
+    ]
+  },
+  "map": {
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location"
+    ]
+  },
+  "map-circle": {
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "round"
+    ]
+  },
+  "map-square": {
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "boxed"
+    ]
+  },
+  "map-add": {
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "add",
+      "create"
+    ]
+  },
+  "map-check": {
+    "category": "maps",
+    "keywords": [
+      "terrain",
+      "location",
+      "verified",
+      "complete"
+    ]
+  },
+  "microphone": {
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio"
+    ]
+  },
+  "microphone-circle": {
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "round"
+    ]
+  },
+  "microphone-square": {
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "boxed"
+    ]
+  },
+  "microphone-add": {
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "add",
+      "create"
+    ]
+  },
+  "microphone-check": {
+    "category": "communication",
+    "keywords": [
+      "voice",
+      "audio",
+      "verified",
+      "complete"
+    ]
+  },
+  "package": {
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery"
+    ]
+  },
+  "package-circle": {
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "round"
+    ]
+  },
+  "package-square": {
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "boxed"
+    ]
+  },
+  "package-add": {
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "add",
+      "create"
+    ]
+  },
+  "package-check": {
+    "category": "files",
+    "keywords": [
+      "box",
+      "delivery",
+      "verified",
+      "complete"
+    ]
+  },
+  "printer": {
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document"
+    ]
+  },
+  "printer-circle": {
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "round"
+    ]
+  },
+  "printer-square": {
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "boxed"
+    ]
+  },
+  "printer-add": {
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "add",
+      "create"
+    ]
+  },
+  "printer-check": {
+    "category": "devices",
+    "keywords": [
+      "print",
+      "document",
+      "verified",
+      "complete"
+    ]
+  },
+  "rocket": {
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space"
+    ]
+  },
+  "rocket-circle": {
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "round"
+    ]
+  },
+  "rocket-square": {
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "boxed"
+    ]
+  },
+  "rocket-add": {
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "add",
+      "create"
+    ]
+  },
+  "rocket-check": {
+    "category": "transport",
+    "keywords": [
+      "launch",
+      "space",
+      "verified",
+      "complete"
+    ]
+  },
+  "save": {
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist"
+    ]
+  },
+  "save-circle": {
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "round"
+    ]
+  },
+  "save-square": {
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "boxed"
+    ]
+  },
+  "save-add": {
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "add",
+      "create"
+    ]
+  },
+  "save-check": {
+    "category": "actions",
+    "keywords": [
+      "disk",
+      "persist",
+      "verified",
+      "complete"
+    ]
+  },
+  "sliders": {
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust"
+    ]
+  },
+  "sliders-circle": {
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "round"
+    ]
+  },
+  "sliders-square": {
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "boxed"
+    ]
+  },
+  "sliders-add": {
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "add",
+      "create"
+    ]
+  },
+  "sliders-check": {
+    "category": "actions",
+    "keywords": [
+      "controls",
+      "adjust",
+      "verified",
+      "complete"
+    ]
+  },
+  "tag": {
+    "category": "files",
+    "keywords": [
+      "label",
+      "category"
+    ]
+  },
+  "tag-circle": {
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "round"
+    ]
+  },
+  "tag-square": {
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "boxed"
+    ]
+  },
+  "tag-add": {
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "add",
+      "create"
+    ]
+  },
+  "tag-check": {
+    "category": "files",
+    "keywords": [
+      "label",
+      "category",
+      "verified",
+      "complete"
+    ]
+  },
+  "terminal": {
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console"
+    ]
+  },
+  "terminal-circle": {
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "round"
+    ]
+  },
+  "terminal-square": {
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "boxed"
+    ]
+  },
+  "terminal-add": {
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "add",
+      "create"
+    ]
+  },
+  "terminal-check": {
+    "category": "development",
+    "keywords": [
+      "shell",
+      "console",
+      "verified",
+      "complete"
+    ]
+  },
+  "truck": {
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics"
+    ]
+  },
+  "truck-circle": {
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "round"
+    ]
+  },
+  "truck-square": {
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "boxed"
+    ]
+  },
+  "truck-add": {
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "add",
+      "create"
+    ]
+  },
+  "truck-check": {
+    "category": "transport",
+    "keywords": [
+      "vehicle",
+      "logistics",
+      "verified",
+      "complete"
+    ]
+  },
+  "warning": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution"
+    ]
+  },
+  "warning-circle": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "round"
+    ]
+  },
+  "warning-square": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "boxed"
+    ]
+  },
+  "warning-add": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "add",
+      "create"
+    ]
+  },
+  "warning-check": {
+    "category": "status",
+    "keywords": [
+      "alert",
+      "caution",
+      "verified",
+      "complete"
+    ]
+  },
+  "wrench": {
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair"
+    ]
+  },
+  "wrench-circle": {
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "round"
+    ]
+  },
+  "wrench-square": {
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "boxed"
+    ]
+  },
+  "wrench-add": {
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
+      "add",
+      "create"
+    ]
+  },
+  "wrench-check": {
+    "category": "actions",
+    "keywords": [
+      "tool",
+      "repair",
       "verified",
       "complete"
     ]
