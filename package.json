@@ -29,8 +29,8 @@
   },
   "keywords": ["icons", "svg", "web-components", "typescript", "accessible", "risklab"],
   "license": "Apache-2.0",
-  "author": "Ryan Walsh",
-  "repository": { "type": "git", "url": "https://github.com/rpwalsh/risklab-icons.git" },
+  "author": "Sarah Walsh",
+  "repository": { "type": "git", "url": "https://github.com/devgrrl/risklab-icons.git" },
   "engines": { "node": ">=20" },
   "publishConfig": { "access": "public" },
   "devDependencies": { "@playwright/test": "^1.55.0", "typescript": "^5.7.0" }
