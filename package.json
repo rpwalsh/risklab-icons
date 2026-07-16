@@ -6,12 +6,25 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
-    "./element": { "types": "./dist/element.d.ts", "import": "./dist/element.js" },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./element": {
+      "types": "./dist/element.d.ts",
+      "import": "./dist/element.js"
+    },
     "./sprite.svg": "./sprite/risklab-icons.svg",
     "./icons/*": "./icons/*.svg"
   },
-  "files": ["dist", "icons", "sprite", "README.md", "LICENSE", "NOTICE"],
+  "files": [
+    "dist",
+    "icons",
+    "sprite",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
   "scripts": {
     "generate": "node scripts/generate.mjs",
     "lint": "node scripts/check-source.mjs",
@@ -19,19 +32,40 @@
     "build": "npm run generate && tsc -p tsconfig.build.json",
     "prepare": "npm run build",
     "test": "node --test tests/*.test.mjs",
+    "test:coverage": "vitest run --coverage",
     "test:browser": "playwright test",
     "check": "npm run typecheck && npm run test",
     "prepack": "npm run generate && npm run check && tsc -p tsconfig.build.json",
     "test:consumer": "node scripts/test-consumer.mjs",
     "pack:check": "npm run test:consumer",
-    "release:check": "npm run lint && npm run typecheck && npm test && npm run build && npm run test:browser && npm run pack:check",
+    "release:check": "npm run lint && npm run typecheck && npm test && npm run test:coverage && npm run build && npm run test:browser && npm run pack:check",
     "validate": "npm run release:check"
   },
-  "keywords": ["icons", "svg", "web-components", "typescript", "accessible", "risklab"],
+  "keywords": [
+    "icons",
+    "svg",
+    "web-components",
+    "typescript",
+    "accessible",
+    "risklab"
+  ],
   "license": "Apache-2.0",
   "author": "Sarah Walsh",
-  "repository": { "type": "git", "url": "https://github.com/devgrrl/risklab-icons.git" },
-  "engines": { "node": ">=20" },
-  "publishConfig": { "access": "public" },
-  "devDependencies": { "@playwright/test": "^1.55.0", "typescript": "^5.7.0" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devgrrl/risklab-icons.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@vitest/coverage-v8": "^3.2.7",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.7"
+  }
 }
